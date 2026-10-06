@@ -1,0 +1,20 @@
+[
+  {
+    "episode": 0,
+    "seed": 67,
+    "start_paddle_x": 0.2466773499771922,
+    "initial_state": [
+      0.11676090210676193,
+      0.6002539992332458,
+      0.0,
+      0.0,
+      0.24842767417430878,
+      0.0
+    ],
+    "frames": 11078,
+    "score": 424.0,
+    "hits": 133,
+    "ended_by": "miss",
+    "controller": "analog-target"
+  }
+]

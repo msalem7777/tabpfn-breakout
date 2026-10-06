@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tabpfn-breakout"
+version = "0.1.0"
+description = "TabPFN imitation control for Atari Breakout with per-frame context selection"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Mohamed Salem"}]
+dependencies = ["numpy>=1.26,<3", "gymnasium==1.2.1", "ale-py==0.12.1", "opencv-python>=4.10,<5", "pillow>=10,<13"]
+
+[project.optional-dependencies]
+local = ["tabpfn==9.0.0", "torch>=2.7"]
+client = ["tabpfn-client>=0.6.1"]
+
+[project.scripts]
+tabpfn-breakout = "breakout_pfn.ball_paddle:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,16 @@
+{
+  "env_id": "ALE/Breakout-v5",
+  "seed": 67,
+  "target_tolerance": 0.00628931,
+  "servo_retarget_tolerance": 0.012578616352201259,
+  "paddle_center_min_x": 0.09748428,
+  "paddle_center_max_x": 0.9591195,
+  "safe_paddle_margin": 0.07,
+  "ball_field_left_x": 0.05031447,
+  "ball_field_right_x": 0.94968553,
+  "ball_velocity_window_frames": 5,
+  "episode_start_paddle_min_x": 0.15,
+  "episode_start_paddle_max_x": 0.85,
+  "ball_position_source": "auto",
+  "teacher_paddle_y": 0.8995215311004785
+}
