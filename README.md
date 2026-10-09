@@ -1,6 +1,10 @@
 # TabPFN Breakout
 
-TabPFN predicts a paddle destination every game frame from recorded teacher examples. The selected successful run achieved **88 paddle hits and cleared 103 of 108 bricks**, then missed. This is an imitation-control demonstration, not reliable level completion or a general world model.
+TabPFN predicts a paddle destination every game frame from recorded teacher examples. A recorded run achieved **110 paddle hits, cleared all 108 bricks, and scored 432 points**, without live teacher intervention. This run used the teacher's starting conditions; reliable completion across different starts has not been established.
+
+[![Watch TabPFN clear Breakout](media/level-clear-preview.jpg)](https://github.com/msalem7777/tabpfn-breakout/blob/main/media/level-clear-1x.mp4)
+
+**Click the image to watch the complete level clear.** This is a verified replay of saved TabPFN decisions at normal game speed, not real-time model inference.
 
 Inspired by [Goran Nakerst's TabPFN driving demonstration](https://jamblejoe.github.io/).
 
